@@ -1,4 +1,18 @@
-
+# dbt artifacts
 target/
 dbt_packages/
 logs/
+
+# Mật khẩu và thông tin kết nối nhạy cảm (CỰC KỲ QUAN TRỌNG)
+**/profiles.yml
+.env
+
+# Các thư mục môi trường ảo python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Hệ điều hành tự sinh
+.DS_Store
